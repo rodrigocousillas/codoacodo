@@ -1,0 +1,124 @@
+.bg-light { background-color: dimgray!important; }
+
+.navbar-light .navbar-brand { color: white!important; }
+
+.navbar { z-index: 999; }  
+nav { padding-left: 0px!important; z-index: 999;}
+.nav-item { font-size: 16px; margin-top: 0px;  }
+a.nav-link { color:#d8d9db; transition: 0.3s all; }
+
+
+a.nav-link:hover { color:#fafafa!important; }
+
+.active { color: white!important;}
+
+.fondoEncabezado {
+    /* La imnagen que uso */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/ba1.jpg");
+
+    /* Alto del fondo */
+    height: 80vh;
+
+    /* Atributos de la imagen */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.textoEncabezado {
+    width: 51%;
+    color: white;
+    text-align: right;
+    padding-top: 200px;
+}
+
+.textoEncabezado p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.textoEncabezado .btn-success, .btn-outline-secondary { 
+    font-size: 22px;
+}
+
+.btn-outline-secondary {
+    color:white!important;
+    border-color: white!important;
+}
+
+.tituloOradores {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.tituloOradores p {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.tituloOradores h3 {
+    font-size: 14px;
+    font-weight: 100;
+    text-transform: none;
+}
+
+.honolulu {
+    margin: 50px 0;
+}
+
+.textoHonolulu {
+    background-color: #353a40;
+    color: white;
+    padding: 25px;
+}
+
+form .btn-success {
+    border-color: #96c93e;
+    background-color: #96c93e;
+    width: 100%!important;
+}
+
+footer {
+    background-color: #353a40;
+}
+
+.piedepagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Can be changed in the live sample */
+    padding: 50px;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+}
+
+.piedepagina > div {
+   width: 150px;
+   color: #fafafa;
+  }
+
+  @media (max-width: 998px) {
+    .piedepagina {
+        flex-direction: column;
+    }
+
+    .textoEncabezado {
+        width: 100%;
+        color: white;
+        text-align: left;
+        
+    }
+    
+    .textoEncabezado p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .textoEncabezado .btn-success, .btn-outline-secondary { 
+        font-size: 14px;
+    }
+
+  }
+
+  
