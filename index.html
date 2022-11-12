@@ -19,40 +19,39 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Los oradores</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">El lugar y la fecha</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Conviertete en un orador</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="color:darkgreen!important;">Comprar Tickets</a>
-              </li>
-              </ul>
-              </div>
-            
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#oradores">Los oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lugar">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#orador">Conviertete en un orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comprar_tickets.html" style="color:darkgreen!important;">Comprar Tickets</a>
+                    </li>
+                </ul>
+            </div>
         </div>
       </nav>
     </header>
     <main>  
-        <div class="container-fluid fondoEncabezado">
+        <div id="home" class="container-fluid fondoEncabezado">
             <div class="container">
                 <div class="textoEncabezado ms-auto">
                     <h1>Conf Bs As</h1>
                     <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
                     <button type="button" class="btn btn-outline-secondary">Quiero ser orador</button>
-                    <button type="button" class="btn btn-success">Comprar tickets</button>
+                    <a type="button" href="comprar_tickets.html" class="btn btn-success">Comprar tickets</a>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div id="oradores" class="container">
             <div class="row">
                 <div class="col-12 tituloOradores">
                     <p>Conoce a los</p> 
@@ -101,7 +100,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid honolulu">
+        <div id="lugar" class="container-fluid honolulu">
             <div class="row">
                 <div class="col-12 col-md-6 px-0">
                     <img src="./img/honolulu.jpg" alt="" class="img-fluid">
@@ -112,7 +111,7 @@
                     <button type="button" class="btn btn-outline-secondary">Conocé más</button>
                 </div>
             </div>
-            <div class="row">
+            <div id="orador" class="row">
                 <div class="col-12 tituloOradores">
                     <p>Conviertete en un</p> 
                     <h2>orador</h2>
