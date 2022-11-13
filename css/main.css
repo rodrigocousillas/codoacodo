@@ -17,7 +17,7 @@ a.nav-link:hover { color:#fafafa!important; }
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/ba1.jpg");
 
     /* Alto del fondo */
-    height: 80vh;
+    height: 100vh;
 
     /* Atributos de la imagen */
     background-position: center;
@@ -29,16 +29,16 @@ a.nav-link:hover { color:#fafafa!important; }
     width: 51%;
     color: white;
     text-align: right;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .textoEncabezado p {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 .textoEncabezado .btn-success, .btn-outline-secondary { 
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .btn-outline-secondary {
